@@ -1,0 +1,73 @@
+@import url('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />');
+*{
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+
+}
+
+body{
+    display: grid;
+    place-items: center ;
+}
+
+.Calculator{
+    width: 330px;
+    background-color: #f4f6fa;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 3px 0px 7px #f1ecec73;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+}
+
+form .result{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(132, 159, 160);
+    box-shadow:  0px 0px 2px 0px rgba(0,0,0,0.75);
+    /* -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 2px 0px rgba(0,0,0,0.75); */
+
+}
+.result input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    margin: 2px;
+    padding: 0px 20px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: right;
+    color: white;
+}
+
+form .buttons{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200px;
+    padding: 30px 0 0 0 ;
+    margin: 10px;
+
+}
+
+.buttons input[type="button"]{
+    height: 56px;
+    width: 56px;
+    font-size: 23px;
+    font-weight: 200;
+    /* margin: 2px; */
+    border-radius: 5px;
+    
+} 
+
+
+/* .buttons input[type="button"] :focus{
+
+} */
